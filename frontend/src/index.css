@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Alphalyrae";
+  src: url("/src/assets/AlphaLyrae-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme{
+    --color-purple-300: #e0e7fe;
+    --color-purple-500: #3e38a7;
+    --color-purple-600: #5046e4;
+    --color-customPurple-200:#d9ddee;
+    --color-customPurple-500:#e6e9ed;
+    --color-customPurple-600:#7164c0;
+    --color-customGray-300:#e6e9ed;
+    --color-customGray-200:#eeeeef;
+    --color-customGray-600:#95989c;
+
+    --font-sans: "Inter", sans-serif;
+    --font-brand: "Space Grotesk", sans-serif;
+    --font-brandNew: "Alphalyrae", sans-serif;
+}
